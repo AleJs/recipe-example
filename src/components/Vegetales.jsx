@@ -46,7 +46,7 @@ const Vegetales = () => {
               return (
                 <SplideSlide>
                   <Card>
-                    <Link to={"/recipes/" + recipes.id}>
+                    <Link to={"/recipe-example/" + recipes.id}>
                     
                     <p>{recipes.title}</p>
                     <img src={recipes.image} alt="" />

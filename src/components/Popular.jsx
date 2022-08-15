@@ -38,7 +38,7 @@ const Popular = () => {
             return (
               <SplideSlide>
                 <Card>
-                  <Link to={"/recipe/" + recipes.id}>
+                  <Link to={"/recipe-example/" + recipes.id}>
                   
                   <p>{recipes.title}</p>
                   <img src={recipes.image} alt="" />

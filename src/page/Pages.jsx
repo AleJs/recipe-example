@@ -8,10 +8,10 @@ const Pages = () => {
    
      
       <Routes>
-      <Route path="/" element={<Home/>}/>
-      <Route path="/cuisine/:type" element={<Cuisine/>}/>
-      <Route path="/search/:search" element={<Searched/>}/>
-      <Route path="/recipes/:name" element={<Recipes/>}/>
+      <Route path="/recipe-example/" element={<Home/>}/>
+      <Route path="/recipe-example/cuisine/:type" element={<Cuisine/>}/>
+      <Route path="/recipe-example/search/:search" element={<Searched/>}/>
+      <Route path="/recipe-example/:name" element={<Recipes/>}/>
       </Routes>
 
   

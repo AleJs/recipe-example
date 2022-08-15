@@ -11,25 +11,25 @@ function Category() {
   return (
     <List>
         <Slink to={
-            "/cuisine/italian"
+            "/recipe-example/cuisine/italian"
         }>
             <FaPizzaSlice/>
             <h4>italian</h4>
         </Slink>
         <Slink    to={
-            "/cuisine/american"
+            "/recipe-example/cuisine/american"
         }>
             <FaHamburger/>
             <h4>American</h4>
         </Slink>
         <Slink to={
-            "/cuisine/thai"
+            "/recipe-example/cuisine/thai"
         }>
             <GiNoodles/>
             <h4>Thai</h4>
         </Slink>
         <Slink to={
-            "/cuisine/Korean"
+            "/recipe-example/cuisine/Korean"
         }>
             <GiChopsticks/>
             <h4>Korean</h4>

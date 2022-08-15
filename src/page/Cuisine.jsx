@@ -12,7 +12,7 @@ const [cuisine, setcuisine] = useState([])
 
     useEffect(() => {
        getcusine(params.type)
-       console.log(params)
+    
     }, [params])
     
 
@@ -32,7 +32,7 @@ const getcusine = async (name) =>{
         {cuisine.map((recipes) =>{
           
         return (
-            <Link to={"/recipes/" + recipes.id}>
+            <Link to={"/recipe-example/" + recipes.id}>
 
 
             <Card key={recipes.id}>

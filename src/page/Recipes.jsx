@@ -7,7 +7,7 @@ const Recipes = () => {
   let params = useParams();
 
   useEffect(() => {
-    console.clear()
+   
   
     getRecipeInfo(params.name)
   }, [params.name]);

@@ -10,7 +10,7 @@ const Search = () => {
     const navigate = useNavigate();
     const inputSubmit = (e) =>{
         e.preventDefault()
-        navigate("/search/" + input)
+        navigate("/recipe-example/search/" + input)
     }
   
     return (

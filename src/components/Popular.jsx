@@ -26,7 +26,7 @@ const Popular = () => {
     }
 
   };
-  console.log(popular);
+
   return (
  
       <Wrapper>

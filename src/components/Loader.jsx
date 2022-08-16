@@ -1,5 +1,4 @@
 import styled from "styled-components";
-
 const Loader = styled.span`
 
 
@@ -29,4 +28,17 @@ const Divloader = styled.div`
     justify-content: center;
     
 `
-export {Loader,Divloader}
+
+
+const Nav = styled.div`
+    padding-top:1em;
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+    span{
+    
+    }
+`
+export {Loader,Divloader, Nav}

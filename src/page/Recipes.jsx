@@ -73,7 +73,7 @@ const Recipes = () => {
 };
 
 const Wrapper = styled.div`
-    margin-top: 10rem;
+    margin-top: 3rem;
     margin-bottom: 5rem;
     max-width: 1440px;
     display: flex;
